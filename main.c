@@ -222,8 +222,8 @@ void Gpio_Init()
     //INPUT_SWITCH_DIR_4=1;
     
     
-    UART_TX_DIR=1;
     UART_TX_DIR=0;
+    UART_RX_DIR=1;
     
 }
 
